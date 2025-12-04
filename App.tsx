@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { ViewState, Poem } from './types';
-import { RecordView } from './views/RecordView';
-import { FeedView } from './views/FeedView';
-import { ProfileView } from './views/ProfileView';
-import { PoemDetailView } from './views/PoemDetailView';
-import { AuthView } from './views/AuthView';
-import { SettingsView } from './views/SettingsView';
-import { NotificationsView } from './views/NotificationsView';
-import { ReloadPrompt } from './components/ReloadPrompt';
+import { RecordView } from './RecordView';
+import { FeedView } from './FeedView';
+import { ProfileView } from './ProfileView';
+import { PoemDetailView } from './PoemDetailView';
+import { AuthView } from './AuthView';
+import { SettingsView } from './SettingsView';
+import { NotificationsView } from './NotificationsView';
+import { ReloadPrompt } from './ReloadPrompt';
 import { NAV_ITEMS } from './constants';
-import { AuthProvider, useAuth } from './context/AuthContext';
-import { api } from './services/mockBackend';
+import { AuthProvider, useAuth } from './AuthContext';
+import { api } from './mockBackend';
 import { WifiOff, RefreshCw } from 'lucide-react';
 
 const AppContent: React.FC = () => {
