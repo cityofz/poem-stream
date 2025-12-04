@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Poem Stream",
+  "description": "A typewriter-style poetry app that records the rhythm of your keystrokes and plays them back exactly as you wrote them.",
+  "requestFramePermissions": []
+}
